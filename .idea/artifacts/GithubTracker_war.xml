@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GithubTracker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GithubTracker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GithubTracker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GithubTracker:war exploded" />
+    </root>
+  </artifact>
+</component>
